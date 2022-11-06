@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabajo Integrador Bootstrap</title>
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Navbar -->
+            <nav
+                class="navbar navbar-expand-lg"
+                style="background-color: #353a40 !important"
+            >
+                <div class="container container-fluid">
+                    <a class="navbar-brand text-white" href="#">
+                        <img
+                            src="./images/codoacodo.png"
+                            height="55px"
+                            alt="Logo Codo A Codo"
+                        />Conf Bs As
+                    </a>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul
+                            class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                        >
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#"
+                                    >La conferencia</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"
+                                    >Los oradores</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"
+                                    >El lugar y la fecha</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary"
+                                    >Conviértete en orador</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success"
+                                    >Comprar tickets</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Image BsAs -->
+        <main>
+            <section>
+                <div class="row card text-bg-dark text-end">
+                    <img
+                        src="./images/ba1.jpg"
+                        class="card-img img-fluid"
+                        alt="..."
+                    />
+                    <div
+                        class="container card-img-overlay d-flex align-items-center justify-content-end"
+                    >
+                        <div style="width: 50%">
+                            <h1 class="card-title">Conf Bs As</h1>
+                            <p class="card-text">
+                                Bs As llega por primera vez a Argentina. Un
+                                evento para compartir con nuestra comunidad el
+                                conocimiento y experiencia de los expertos que
+                                están creando el futuro de Internet. Ven a
+                                conocer a miembros del evento, a otros
+                                estudiantes de Codo a Codo y los oradores de
+                                primer nivel que tenemos para ti. Te esperamos!
+                            </p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button
+                                    type="button"
+                                    class="btn btn-outline-light"
+                                >
+                                    Quiero ser orador
+                                </button>
+                                <button type="button" class="btn btn-success">
+                                    Comprar tickets
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container my-4">
+                    <h2 class="text-center my-3 text-uppercase fs-6">
+                        Conoce a los<br /><b class="fs-1">Oradores</b>
+                    </h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img
+                                    src="./images/steve.jpg"
+                                    class="card-img-top h-100"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <span
+                                        class="badge rounded-pill text-bg-warning"
+                                        >Javascript</span
+                                    >
+                                    <span
+                                        class="badge rounded-pill text-bg-info"
+                                        >React</span
+                                    >
+                                    <h5 class="card-title">Steve Jobs</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Accusantium debitis
+                                        hic voluptate, soluta illum iusto.
+                                        Eligendi doloremque, perferendis animi
+                                        adipisci repellat sit similique eius eos
+                                        nostrum quis expedita consequuntur
+                                        reprehenderit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img
+                                    src="./images/bill.jpg"
+                                    class="card-img-top h-100"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <span
+                                        class="badge rounded-pill text-bg-warning"
+                                        >Javascript</span
+                                    >
+                                    <span
+                                        class="badge rounded-pill text-bg-info"
+                                        >React</span
+                                    >
+                                    <h5 class="card-title">Bill Gates</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Facilis architecto
+                                        atque omnis pariatur quisquam. Rerum,
+                                        eum dolores itaque porro accusantium
+                                        architecto illum? Cumque eos explicabo
+                                        ea tenetur amet consequuntur laboriosam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img
+                                    src="./images/ada.jpeg"
+                                    class="card-img-top h-100"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <span
+                                        class="badge rounded-pill text-bg-secondary"
+                                        >Negocios</span
+                                    >
+                                    <span
+                                        class="badge rounded-pill text-bg-danger"
+                                        >Startups</span
+                                    >
+                                    <h5 class="card-title">Card title</h5>
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Nesciunt voluptatem
+                                        ipsum saepe quia rem, facilis non
+                                        sapiente quisquam est animi magnam,
+                                        nihil, pariatur nulla provident laborum
+                                        quos ducimus iste excepturi?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-xs-1 col-md-6">
+                            <img
+                                src="./images/honolulu.jpg"
+                                class="img-fluid rounded-start"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="col-xs-1 col-md-6">
+                            <div class="card-body bg-dark text-light h-100">
+                                <h2 class="card-title">Bs As - Octubre</h2>
+                                <p class="card-text">
+                                    Buenos Aires es la provincia y localidad más
+                                    grande del estado de Argentina, en los
+                                    Estados Unidos. Honolulu es la más sureña de
+                                    entre las principales ciudades
+                                    estadounidenses. Aunque el nombre de
+                                    Honolulu se refiere al área urbana en la
+                                    costa sureste de la isla de Oahu, la ciudad
+                                    y el condado de Honolulu han formado una
+                                    ciudad condado consolidada que cubre toda la
+                                    ciudad (aproximadamente 600 km<sup>2</sup>
+                                    de superficie).
+                                </p>
+                                <button class="btn btn-outline-light">
+                                    Conocé más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container my-3" style="width: 60%">
+                    <h2 class="text-center text-uppercase my-4">
+                        Conviértete en un<br /><b>Orador</b>
+                    </h2>
+                    <p class="text-center">
+                        Anótate para dar una
+                        <span style="border-bottom: thin dashed"
+                            >charla ignite</span
+                        >. Cuentanos de que quieres hablar!
+                    </p>
+                    <form>
+                        <div class="row g-3" style="width: 100%">
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Nombre"
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Apellido"
+                                />
+                            </div>
+                            <textarea
+                                class="form-control"
+                                placeholder="Sobre que quieres hablar?"
+                                rows="6"
+                                style="font-size: 25px"
+                            ></textarea>
+                            <div class="form-text">
+                                Recuerda incluir un título para tu charla
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button
+                                    class="btn btn-lg btn-success"
+                                    type="button"
+                                >
+                                    Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="container my-3" style="width: 60%">
+                    <div class="row g-1">
+                        <div class="col">
+                            <div
+                                class="card text-center border border-primary"
+                                style="border-radius: 0px"
+                            >
+                                <div class="card-body">
+                                    <h4 class="card-title">Estudiante</h4>
+                                    <p class="card-text">Tiene un descuento</p>
+                                    <p class="card-text fw-bold">80%</p>
+                                    <p class="text-muted">
+                                        * Presentar documentación
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="card text-center border border-success"
+                                style="border-radius: 0px"
+                            >
+                                <div class="card-body">
+                                    <h4 class="card-title">Trainee</h4>
+                                    <p class="card-text">Tiene un descuento</p>
+                                    <p class="card-text fw-bold">50%</p>
+                                    <p class="text-muted">
+                                        * Presentar documentación
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="card text-center border border-warning"
+                                style="border-radius: 0px"
+                            >
+                                <div class="card-body">
+                                    <h4 class="card-title">Junior</h4>
+                                    <p class="card-text">Tiene un descuento</p>
+                                    <p class="card-text fw-bold">15%</p>
+                                    <p class="text-muted">
+                                        * Presentar documentación
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mt-2 text-center">
+                            <p class="text-uppercase">venta</p>
+                            <p
+                                class="fs-1 text-uppercase"
+                                style="font-weight: 600"
+                            >
+                                valor de ticket $200
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Inputs -->
+                    <div class="row">
+                        <form>
+                            <div class="row g-2 m-2">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Nombre"
+                                        name="name"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Apellido"
+                                        name="lastname"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row g-2 m-2">
+                                <div class="col">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Correo"
+                                        name="mail"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="row g-2 m-2">
+                                <div class="col">
+                                    <label for="cantidad" class="form-label"
+                                        >Cantidad</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="cantidad"
+                                        placeholder="cantidad"
+                                        name="amount"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <label for="categoria" class="form-label"
+                                        >Categoria</label
+                                    >
+                                    <select
+                                        id="categoria"
+                                        class="form-select"
+                                        name="category"
+                                    >
+                                        <option value="estudiante" selected>
+                                            Estudiante
+                                        </option>
+                                        <option value="trainee">Trainee</option>
+                                        <option value="junior">Junior</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Resultado -->
+                            <div
+                                class="row mx-2 my-4"
+                                id="divResult"
+                                style="display: none"
+                            >
+                                <div class="alert alert-primary" role="alert">
+                                    Total a pagar: $ <span id="total"></span>
+                                </div>
+                            </div>
+                            <!-- Botones -->
+                            <div class="row g-2 m-2">
+                                <div class="col-xs-1 col-md-6 col-lg-6">
+                                    <button
+                                        class="btn btn-success"
+                                        id="btnDelete"
+                                        style="width: 100%"
+                                    >
+                                        Borrar
+                                    </button>
+                                </div>
+                                <div class="col-mx-1 col-md-6 col-lg-6">
+                                    <button
+                                        class="btn btn-success"
+                                        id="btnSummary"
+                                        style="width: 100%"
+                                    >
+                                        Resumen
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <ul
+                    class="nav bg-info justify-content-center align-items-center"
+                    style="height: 80px"
+                >
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"
+                            >Preguntas frecuentes</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Prensa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Conferencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"
+                            >Términos y condiciones</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Privacidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Estudiantes</a>
+                    </li>
+                </ul>
+        </footer>
+        <!-- Bootstrap -->
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
